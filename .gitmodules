@@ -1,0 +1,9 @@
+[submodule "Experiments/tools/kofola"]
+	path = Experiments/tools/kofola
+	url = https://github.com/VeriFIT/kofola.git
+[submodule "Experiments/tools/seminator"]
+	path = Experiments/tools/seminator
+	url = https://github.com/adl/seminator.git
+[submodule "Experiments/data/automata-benchmarks"]
+	path = Experiments/data/automata-benchmarks
+	url = https://github.com/ondrik/automata-benchmarks.git
