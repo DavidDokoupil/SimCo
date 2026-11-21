@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-258.7","tsl_smart_home_jarvis/extracted-benchmarks/FelixSpecFixed3.core_b209ff21.tlsf",16,25,223,91384,3,8,16,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,
+"-:1.1-258.7","tsl_smart_home_jarvis/extracted-benchmarks/FelixSpecFixed3.core_b209ff21.tlsf",16,25,223,91384,3,8,16,1,0,"SimCo","timeout",-1,3600,,,,,,,,,
+"-:1.1-258.7","tsl_smart_home_jarvis/extracted-benchmarks/FelixSpecFixed3.core_b209ff21.tlsf",16,25,223,91384,3,8,16,1,0,"Kofola","ok",0,5.53118,16,257,10971,16694272,9,7,128,1,0
+"-:1.1-258.7","tsl_smart_home_jarvis/extracted-benchmarks/FelixSpecFixed3.core_b209ff21.tlsf",16,25,223,91384,3,8,16,1,0,"Seminator","ok",0,1481.11,16,5326,254495,101858602,1,2140,4462,1,0
+"-:1.1-258.7","tsl_smart_home_jarvis/extracted-benchmarks/FelixSpecFixed3.core_b209ff21.tlsf",16,25,223,91384,3,8,16,1,0,"Autfilt","ok",0,0.933884,16,427,19258,27983872,4,18,0,0,0

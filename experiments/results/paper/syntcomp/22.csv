@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-36.7","tsl_paper/Sensor.tlsf",10,7,19,604,3,7,2,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,
+"-:1.1-36.7","tsl_paper/Sensor.tlsf",10,7,19,604,3,7,2,1,0,"SimCo","ok",0,262.449,10,424,12336,441184,1,110,73,1,0
+"-:1.1-36.7","tsl_paper/Sensor.tlsf",10,7,19,604,3,7,2,1,0,"Kofola","ok",0,0.133647,10,211,4420,163065,1,28,59,1,0
+"-:1.1-36.7","tsl_paper/Sensor.tlsf",10,7,19,604,3,7,2,1,0,"Seminator","timeout",-1,3600,,,,,,,,,
+"-:1.1-36.7","tsl_paper/Sensor.tlsf",10,7,19,604,3,7,2,1,0,"Autfilt","ok",0,0.0557897,10,157,3905,160768,2,5,0,0,0

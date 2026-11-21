@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-285.7","round_robin_arbiter/parametric/round_robin_arbiter.tlsf",8,31,244,4944,4,16,2,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,
+"-:1.1-285.7","round_robin_arbiter/parametric/round_robin_arbiter.tlsf",8,31,244,4944,4,16,2,1,0,"SimCo","ok",0,3315.49,8,1414,166352,166352,1,121,457,1,0
+"-:1.1-285.7","round_robin_arbiter/parametric/round_robin_arbiter.tlsf",8,31,244,4944,4,16,2,1,0,"Kofola","ok",0,1.38117,8,521,30451,32229,1,6,128,1,0
+"-:1.1-285.7","round_robin_arbiter/parametric/round_robin_arbiter.tlsf",8,31,244,4944,4,16,2,1,0,"Seminator","ok",0,3569.88,8,460,27418,29670,1,12,49,1,0
+"-:1.1-285.7","round_robin_arbiter/parametric/round_robin_arbiter.tlsf",8,31,244,4944,4,16,2,1,0,"Autfilt","ok",0,0.2902,8,458,34696,36992,2,55,0,0,0

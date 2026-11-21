@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-95.7","round_robin_arbiter_unreal/parametric/round_robin_arbiter_unreal2.tlsf",4,17,68,218,2,10,2,1,0,"SimCo-Degen","ok",0,2.6066,4,118,1796,1796,1,26,48,1,0
+"-:1.1-95.7","round_robin_arbiter_unreal/parametric/round_robin_arbiter_unreal2.tlsf",4,17,68,218,2,10,2,1,0,"SimCo","ok",0,1.18309,4,67,793,793,1,18,18,1,0
+"-:1.1-95.7","round_robin_arbiter_unreal/parametric/round_robin_arbiter_unreal2.tlsf",4,17,68,218,2,10,2,1,0,"Kofola","ok",0,0.0118786,4,29,250,255,1,4,5,1,0
+"-:1.1-95.7","round_robin_arbiter_unreal/parametric/round_robin_arbiter_unreal2.tlsf",4,17,68,218,2,10,2,1,0,"Seminator","ok",0,0.024145,4,29,235,251,1,10,7,1,0
+"-:1.1-95.7","round_robin_arbiter_unreal/parametric/round_robin_arbiter_unreal2.tlsf",4,17,68,218,2,10,2,1,0,"Autfilt","ok",0,0.0073117,4,28,268,272,2,5,0,0,0

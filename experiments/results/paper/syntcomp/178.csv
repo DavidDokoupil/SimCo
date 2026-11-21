@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-147.7","sweap/infinite-race-u8.tlsf",16,41,96,1047502,3,41,3,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,
+"-:1.1-147.7","sweap/infinite-race-u8.tlsf",16,41,96,1047502,3,41,3,1,0,"SimCo","timeout",-1,3600,,,,,,,,,
+"-:1.1-147.7","sweap/infinite-race-u8.tlsf",16,41,96,1047502,3,41,3,1,0,"Kofola","exit code",1,376.349,,,,,,,,,
+"-:1.1-147.7","sweap/infinite-race-u8.tlsf",16,41,96,1047502,3,41,3,1,0,"Seminator","exit code",1,172.879,,,,,,,,,
+"-:1.1-147.7","sweap/infinite-race-u8.tlsf",16,41,96,1047502,3,41,3,1,0,"Autfilt","ok",0,11.8881,16,739,3371,4680,3,8,0,0,0

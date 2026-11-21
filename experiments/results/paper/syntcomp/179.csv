@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-173.7","sweap/GF-G-contradiction4.tlsf",18,50,113,4655504,3,50,3,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,
+"-:1.1-173.7","sweap/GF-G-contradiction4.tlsf",18,50,113,4655504,3,50,3,1,0,"SimCo","timeout",-1,3600,,,,,,,,,
+"-:1.1-173.7","sweap/GF-G-contradiction4.tlsf",18,50,113,4655504,3,50,3,1,0,"Kofola","exit code",1,484.462,,,,,,,,,
+"-:1.1-173.7","sweap/GF-G-contradiction4.tlsf",18,50,113,4655504,3,50,3,1,0,"Seminator","exit code",1,224.482,,,,,,,,,
+"-:1.1-173.7","sweap/GF-G-contradiction4.tlsf",18,50,113,4655504,3,50,3,1,0,"Autfilt","ok",0,12.2116,18,247,1470,7360,2,6,0,0,0

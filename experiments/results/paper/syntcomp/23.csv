@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-250.7","tsl_paper/SliderScored.tlsf",13,29,211,6048,3,6,2,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,
+"-:1.1-250.7","tsl_paper/SliderScored.tlsf",13,29,211,6048,3,6,2,1,0,"SimCo","ok",0,1848.45,13,74,1003,610880,1,18,40,1,0
+"-:1.1-250.7","tsl_paper/SliderScored.tlsf",13,29,211,6048,3,6,2,1,0,"Kofola","ok",0,0.0747603,13,30,300,245760,4,5,0,0,0
+"-:1.1-250.7","tsl_paper/SliderScored.tlsf",13,29,211,6048,3,6,2,1,0,"Seminator","ok",0,0.15154,13,75,733,357680,1,14,26,1,0
+"-:1.1-250.7","tsl_paper/SliderScored.tlsf",13,29,211,6048,3,6,2,1,0,"Autfilt","ok",0,0.0161081,13,30,294,245760,1,5,0,0,0

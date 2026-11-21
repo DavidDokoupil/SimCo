@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-42.7","ltl2dpa/ltl2dpa10.tlsf",5,7,25,65,2,7,1,1,0,"SimCo-Degen","ok",0,9.44004,5,555,8281,27072,1,65,291,1,0
+"-:1.1-42.7","ltl2dpa/ltl2dpa10.tlsf",5,7,25,65,2,7,1,1,0,"SimCo","ok",0,6.12667,5,271,3501,9896,1,35,102,1,0
+"-:1.1-42.7","ltl2dpa/ltl2dpa10.tlsf",5,7,25,65,2,7,1,1,0,"Kofola","ok",0,0.0643607,5,177,2129,6029,1,50,158,1,0
+"-:1.1-42.7","ltl2dpa/ltl2dpa10.tlsf",5,7,25,65,2,7,1,1,0,"Seminator","timeout",-1,3600,,,,,,,,,
+"-:1.1-42.7","ltl2dpa/ltl2dpa10.tlsf",5,7,25,65,2,7,1,1,0,"Autfilt","ok",0,0.0116107,5,76,811,2432,4,7,0,0,0

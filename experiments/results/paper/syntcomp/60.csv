@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-609.7","full_arbiter_unreal/parametric/full_arbiter_unreal2.tlsf",6,44,555,676,6,1,0,0,0,"SimCo-Degen","ok",0,2.06816,6,423,7400,30206,1,106,210,1,0
+"-:1.1-609.7","full_arbiter_unreal/parametric/full_arbiter_unreal2.tlsf",6,44,555,676,6,1,0,0,0,"SimCo","ok",0,1.00998,6,216,3863,15276,1,18,91,1,0
+"-:1.1-609.7","full_arbiter_unreal/parametric/full_arbiter_unreal2.tlsf",6,44,555,676,6,1,0,0,0,"Kofola","ok",0,0.0270152,6,108,1276,4037,1,8,41,1,0
+"-:1.1-609.7","full_arbiter_unreal/parametric/full_arbiter_unreal2.tlsf",6,44,555,676,6,1,0,0,0,"Seminator","ok",0,0.244349,6,152,1830,6213,1,13,44,1,0
+"-:1.1-609.7","full_arbiter_unreal/parametric/full_arbiter_unreal2.tlsf",6,44,555,676,6,1,0,0,0,"Autfilt","ok",0,0.0110746,6,45,600,2880,6,2,0,0,0

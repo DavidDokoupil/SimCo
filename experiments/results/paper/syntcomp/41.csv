@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-33.7","ltl2dba/parametric/ltl2dba_R.tlsf",3,5,18,33,3,5,1,1,0,"SimCo-Degen","ok",0,0.385147,3,156,1210,1692,1,23,69,1,0
+"-:1.1-33.7","ltl2dba/parametric/ltl2dba_R.tlsf",3,5,18,33,3,5,1,1,0,"SimCo","ok",0,0.1592,3,49,349,450,1,7,16,1,0
+"-:1.1-33.7","ltl2dba/parametric/ltl2dba_R.tlsf",3,5,18,33,3,5,1,1,0,"Kofola","ok",0,0.0191192,3,66,507,596,2,21,48,1,0
+"-:1.1-33.7","ltl2dba/parametric/ltl2dba_R.tlsf",3,5,18,33,3,5,1,1,0,"Seminator","ok",0,0.0275315,3,36,178,248,1,10,33,1,0
+"-:1.1-33.7","ltl2dba/parametric/ltl2dba_R.tlsf",3,5,18,33,3,5,1,1,0,"Autfilt","ok",0,0.00670847,3,26,177,208,3,2,0,0,0

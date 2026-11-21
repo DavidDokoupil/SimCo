@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-12407.7","amba/amba/parametric/amba_case_study.tlsf",15,325,12072,304982,2,6,322,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,
+"-:1.1-12407.7","amba/amba/parametric/amba_case_study.tlsf",15,325,12072,304982,2,6,322,1,0,"SimCo","timeout",-1,3600,,,,,,,,,
+"-:1.1-12407.7","amba/amba/parametric/amba_case_study.tlsf",15,325,12072,304982,2,6,322,1,0,"Kofola","ok",0,255.99,15,770,32883,10631424,4,3,0,0,0
+"-:1.1-12407.7","amba/amba/parametric/amba_case_study.tlsf",15,325,12072,304982,2,6,322,1,0,"Seminator","timeout",-1,3600,,,,,,,,,
+"-:1.1-12407.7","amba/amba/parametric/amba_case_study.tlsf",15,325,12072,304982,2,6,322,1,0,"Autfilt","ok",0,49.5703,15,698,29902,9636096,2,4,0,0,0

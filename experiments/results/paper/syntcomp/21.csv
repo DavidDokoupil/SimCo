@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-58.7","tsl_paper/EscalatorSmart.tlsf",7,10,38,464,2,7,4,1,0,"SimCo-Degen","ok",0,1.85125,7,75,866,11232,1,17,34,1,0
+"-:1.1-58.7","tsl_paper/EscalatorSmart.tlsf",7,10,38,464,2,7,4,1,0,"SimCo","ok",0,1.77889,7,56,649,8320,1,16,24,1,0
+"-:1.1-58.7","tsl_paper/EscalatorSmart.tlsf",7,10,38,464,2,7,4,1,0,"Kofola","ok",0,0.017708,7,33,288,2934,1,4,21,1,0
+"-:1.1-58.7","tsl_paper/EscalatorSmart.tlsf",7,10,38,464,2,7,4,1,0,"Seminator","ok",0,0.034118,7,23,159,1829,1,4,20,1,0
+"-:1.1-58.7","tsl_paper/EscalatorSmart.tlsf",7,10,38,464,2,7,4,1,0,"Autfilt","ok",0,0.00844871,7,18,162,2304,3,6,0,0,0

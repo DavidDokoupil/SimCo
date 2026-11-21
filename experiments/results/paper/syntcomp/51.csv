@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-248.7","ltl2dba/non_parametric_from_acacia/ltl2dba21.tlsf",3,42,196,352,2,9,28,1,0,"SimCo-Degen","ok",0,2.74991,3,380,2740,3540,1,179,127,1,0
+"-:1.1-248.7","ltl2dba/non_parametric_from_acacia/ltl2dba21.tlsf",3,42,196,352,2,9,28,1,0,"SimCo","ok",0,2.66085,3,261,1428,2212,1,139,54,1,0
+"-:1.1-248.7","ltl2dba/non_parametric_from_acacia/ltl2dba21.tlsf",3,42,196,352,2,9,28,1,0,"Kofola","ok",0,0.0733678,3,238,1386,1752,2,75,31,1,0
+"-:1.1-248.7","ltl2dba/non_parametric_from_acacia/ltl2dba21.tlsf",3,42,196,352,2,9,28,1,0,"Seminator","ok",0,0.302349,3,63,381,636,1,28,26,1,0
+"-:1.1-248.7","ltl2dba/non_parametric_from_acacia/ltl2dba21.tlsf",3,42,196,352,2,9,28,1,0,"Autfilt","ok",0,0.0176046,3,148,841,1184,2,18,0,0,0

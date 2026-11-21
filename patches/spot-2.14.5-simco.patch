@@ -1,0 +1,92 @@
+--- a/spot-2.14.5/spot/twaalgos/simulation.hh	2026-01-11 18:13:17.000000000 +0100
++++ b/spot-2.14.5/spot/twaalgos/simulation.hh	2026-03-18 14:54:56.376335899 +0100
+@@ -159,7 +159,7 @@
+   /// \return a new automaton which is at worst a copy of the received
+   /// one
+   SPOT_API
+-  twa_graph_ptr reduce_direct_sim(const const_twa_graph_ptr& aut);
++  twa_graph_ptr reduce_direct_sim(const const_twa_graph_ptr& aut, std::vector<bool>* out_relation = nullptr);
+   SPOT_API
+   twa_graph_ptr reduce_direct_sim_sba(const const_twa_graph_ptr& aut);
+   /// @}
+--- a/spot-2.14.5/spot/twaalgos/simulation.cc	2026-01-11 18:13:17.000000000 +0100
++++ b/spot-2.14.5/spot/twaalgos/simulation.cc	2026-03-18 14:52:15.191027820 +0100
+@@ -1056,7 +1056,7 @@
+   class reduce_sim
+   {
+   public:
+-    reduce_sim(const const_twa_graph_ptr& aut);
++    reduce_sim(const const_twa_graph_ptr& aut, std::vector<bool>* out_relation = nullptr);
+ 
+     twa_graph_ptr run();
+ 
+@@ -1067,13 +1067,15 @@
+     const_twa_graph_ptr aut_;
+     const_twa_graph_ptr original_;
+ 
++    std::vector<bool>* out_relation_;
++
+     // Only use if Sba && Cosimulation
+     std::vector<acc_cond::mark_t> acc_;
+   };
+ 
+   template <bool Cosimulation, bool Sba>
+-  reduce_sim<Cosimulation, Sba>::reduce_sim(const const_twa_graph_ptr& aut)
+-    : original_(aut)
++  reduce_sim<Cosimulation, Sba>::reduce_sim(const const_twa_graph_ptr& aut, std::vector<bool>* out_relation)
++    : original_(aut), out_relation_(out_relation)
+   {
+     unsigned n = aut->num_states();
+ 
+@@ -1334,6 +1336,8 @@
+   {
+     std::vector<bool> can_sim = compute_simulation();
+ 
++    if (out_relation_) {*out_relation_ = can_sim;}
++
+     twa_graph_ptr res = std::make_shared<twa_graph>(original_->get_dict());
+     res->copy_ap_of(original_);
+     res->copy_acceptance_of(original_);
+@@ -1554,14 +1558,15 @@
+           true,         // completeness preserved
+           true,         // stutter inv.
+         });
+-
++    
++    res->set_named_prop("can-sim", new std::vector<unsigned>(can_sim.begin(), can_sim.end()));
+     return res;
+   }
+ 
+-  twa_graph_ptr reduce_direct_sim(const const_twa_graph_ptr& aut)
++  twa_graph_ptr reduce_direct_sim(const const_twa_graph_ptr& aut, std::vector<bool>* out_relation)
+   {
+     // The automaton must not have dead or unreachable states.
+-    reduce_sim<false, false> r(scc_filter(aut));
++    reduce_sim<false, false> r(scc_filter(aut), out_relation);
+     return r.run();
+   }
+ 
+--- a/spot-2.14.5/python/spot/impl.i	2026-01-11 18:13:17.000000000 +0100
++++ b/spot-2.14.5/python/spot/impl.i	2026-03-18 14:52:58.296943355 +0100
+@@ -1497,3 +1497,20 @@
+ }
+ 
+ }
++
++%include <std_vector.i>
++%include <std_pair.i>
++
++%template(BoolVector) std::vector<bool>;
++%template(AutSimPair) std::pair<spot::twa_graph_ptr, std::vector<bool>>;
++
++%inline %{
++#include <spot/twaalgos/simulation.hh>
++
++std::pair<spot::twa_graph_ptr, std::vector<bool>> 
++get_sim_matrix(const spot::const_twa_graph_ptr& aut) {
++    std::vector<bool> relation;
++    spot::twa_graph_ptr reduced = spot::reduce_direct_sim(aut, &relation);
++    return std::make_pair(reduced, relation);
++}
++%}
+\ No newline at end of file

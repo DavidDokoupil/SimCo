@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-29.7","tsl_smart_home_jarvis/extracted-benchmarks/CoffeMachine_a50cadd7.tlsf",8,4,15,56,2,1,1,1,0,"SimCo-Degen","ok",0,0.383421,8,14,56,2912,1,6,3,1,0
+"-:1.1-29.7","tsl_smart_home_jarvis/extracted-benchmarks/CoffeMachine_a50cadd7.tlsf",8,4,15,56,2,1,1,1,0,"SimCo","ok",0,0.329734,8,14,56,2912,1,6,3,1,0
+"-:1.1-29.7","tsl_smart_home_jarvis/extracted-benchmarks/CoffeMachine_a50cadd7.tlsf",8,4,15,56,2,1,1,1,0,"Kofola","ok",0,0.0098716,8,16,84,3046,1,4,9,1,0
+"-:1.1-29.7","tsl_smart_home_jarvis/extracted-benchmarks/CoffeMachine_a50cadd7.tlsf",8,4,15,56,2,1,1,1,0,"Seminator","ok",0,0.0283704,8,12,47,1904,1,5,2,1,0
+"-:1.1-29.7","tsl_smart_home_jarvis/extracted-benchmarks/CoffeMachine_a50cadd7.tlsf",8,4,15,56,2,1,1,1,0,"Autfilt","ok",0,0.00656341,8,6,21,1536,1,2,0,0,0

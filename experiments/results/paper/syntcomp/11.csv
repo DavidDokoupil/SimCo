@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-289.7","amba/amba_decomposed/parametric/amba_decomposed_arbiter.tlsf",11,12,267,8972,4,5,2,1,0,"SimCo-Degen","ok",0,486.634,11,236,3049,690176,1,29,102,1,0
+"-:1.1-289.7","amba/amba_decomposed/parametric/amba_decomposed_arbiter.tlsf",11,12,267,8972,4,5,2,1,0,"SimCo","ok",0,244.669,11,116,2501,240380,1,12,49,1,0
+"-:1.1-289.7","amba/amba_decomposed/parametric/amba_decomposed_arbiter.tlsf",11,12,267,8972,4,5,2,1,0,"Kofola","ok",0,0.222228,11,40,742,80896,3,3,0,0,0
+"-:1.1-289.7","amba/amba_decomposed/parametric/amba_decomposed_arbiter.tlsf",11,12,267,8972,4,5,2,1,0,"Seminator","ok",0,0.245567,11,51,738,56711,1,7,26,1,0
+"-:1.1-289.7","amba/amba_decomposed/parametric/amba_decomposed_arbiter.tlsf",11,12,267,8972,4,5,2,1,0,"Autfilt","ok",0,0.0220334,11,27,425,54272,2,3,0,0,0

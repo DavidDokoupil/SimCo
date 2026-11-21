@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-110.7","tsl_smart_home_jarvis/extracted-benchmarks/Morning_9cac58d3.tlsf",27,23,77,16129920,2,19,7,1,0,"SimCo-Degen","exit code",1,1685.6,,,,,,,,,
+"-:1.1-110.7","tsl_smart_home_jarvis/extracted-benchmarks/Morning_9cac58d3.tlsf",27,23,77,16129920,2,19,7,1,0,"SimCo","exit code",1,1609.98,,,,,,,,,
+"-:1.1-110.7","tsl_smart_home_jarvis/extracted-benchmarks/Morning_9cac58d3.tlsf",27,23,77,16129920,2,19,7,1,0,"Kofola","exit code",1,769.875,,,,,,,,,
+"-:1.1-110.7","tsl_smart_home_jarvis/extracted-benchmarks/Morning_9cac58d3.tlsf",27,23,77,16129920,2,19,7,1,0,"Seminator","exit code",1,2912.64,,,,,,,,,
+"-:1.1-110.7","tsl_smart_home_jarvis/extracted-benchmarks/Morning_9cac58d3.tlsf",27,23,77,16129920,2,19,7,1,0,"Autfilt","exit code",1,457.266,,,,,,,,,

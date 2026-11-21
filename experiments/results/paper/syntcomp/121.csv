@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-92.7","tsl_smart_home_jarvis/extracted-benchmarks/Window2_aeb1d897.tlsf",14,15,67,18368,2,8,6,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,
+"-:1.1-92.7","tsl_smart_home_jarvis/extracted-benchmarks/Window2_aeb1d897.tlsf",14,15,67,18368,2,8,6,1,0,"SimCo","timeout",-1,3600,,,,,,,,,
+"-:1.1-92.7","tsl_smart_home_jarvis/extracted-benchmarks/Window2_aeb1d897.tlsf",14,15,67,18368,2,8,6,1,0,"Kofola","ok",0,0.299815,14,48,1376,786432,7,5,0,0,0
+"-:1.1-92.7","tsl_smart_home_jarvis/extracted-benchmarks/Window2_aeb1d897.tlsf",14,15,67,18368,2,8,6,1,0,"Seminator","ok",0,299.268,14,99,2020,1080240,1,24,48,1,0
+"-:1.1-92.7","tsl_smart_home_jarvis/extracted-benchmarks/Window2_aeb1d897.tlsf",14,15,67,18368,2,8,6,1,0,"Autfilt","ok",0,0.0917423,14,55,1417,901120,2,7,0,0,0

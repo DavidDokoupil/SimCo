@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-90686.7","ltl_with_hints/parametric/simple_arbiter_with_hints.tlsf",18,776,89900,2797261,9,265,0,0,0,"SimCo-Degen","timeout",-1,3600.02,,,,,,,,,
+"-:1.1-90686.7","ltl_with_hints/parametric/simple_arbiter_with_hints.tlsf",18,776,89900,2797261,9,265,0,0,0,"SimCo","timeout",-1,3600.01,,,,,,,,,
+"-:1.1-90686.7","ltl_with_hints/parametric/simple_arbiter_with_hints.tlsf",18,776,89900,2797261,9,265,0,0,0,"Kofola","ok",0,70.2793,18,777,90677,203685888,9,266,0,0,0
+"-:1.1-90686.7","ltl_with_hints/parametric/simple_arbiter_with_hints.tlsf",18,776,89900,2797261,9,265,0,0,0,"Seminator","ok",0,99.1255,18,4875,574859,685622396,1,276,649,1,0
+"-:1.1-90686.7","ltl_with_hints/parametric/simple_arbiter_with_hints.tlsf",18,776,89900,2797261,9,265,0,0,0,"Autfilt","ok",0,65.8303,18,777,90677,203685888,9,266,0,0,0

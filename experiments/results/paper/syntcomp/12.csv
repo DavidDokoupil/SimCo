@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-415.7","amba/amba_decomposed/amba_decomposed_tburst4.tlsf",5,62,343,1318,4,6,50,1,0,"SimCo-Degen","ok",0,126.985,5,205,1687,6236,1,36,120,1,0
+"-:1.1-415.7","amba/amba_decomposed/amba_decomposed_tburst4.tlsf",5,62,343,1318,4,6,50,1,0,"SimCo","ok",0,51.9622,5,80,552,2016,1,10,50,1,0
+"-:1.1-415.7","amba/amba_decomposed/amba_decomposed_tburst4.tlsf",5,62,343,1318,4,6,50,1,0,"Kofola","ok",0,0.0169808,5,16,65,300,1,4,2,1,0
+"-:1.1-415.7","amba/amba_decomposed/amba_decomposed_tburst4.tlsf",5,62,343,1318,4,6,50,1,0,"Seminator","ok",0,0.150602,5,17,49,258,1,8,1,1,0
+"-:1.1-415.7","amba/amba_decomposed/amba_decomposed_tburst4.tlsf",5,62,343,1318,4,6,50,1,0,"Autfilt","ok",0,0.0114227,5,15,55,288,2,4,0,0,0

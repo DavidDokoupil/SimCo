@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-543.7","tsl_smart_home_jarvis/extracted-benchmarks/LightsTotal_d65ed84e.tlsf",17,38,495,227896,3,9,22,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,
+"-:1.1-543.7","tsl_smart_home_jarvis/extracted-benchmarks/LightsTotal_d65ed84e.tlsf",17,38,495,227896,3,9,22,1,0,"SimCo","timeout",-1,3600,,,,,,,,,
+"-:1.1-543.7","tsl_smart_home_jarvis/extracted-benchmarks/LightsTotal_d65ed84e.tlsf",17,38,495,227896,3,9,22,1,0,"Kofola","ok",0,9.59456,17,214,8556,27836068,10,19,115,1,0
+"-:1.1-543.7","tsl_smart_home_jarvis/extracted-benchmarks/LightsTotal_d65ed84e.tlsf",17,38,495,227896,3,9,22,1,0,"Seminator","timeout",-1,3600,,,,,,,,,
+"-:1.1-543.7","tsl_smart_home_jarvis/extracted-benchmarks/LightsTotal_d65ed84e.tlsf",17,38,495,227896,3,9,22,1,0,"Autfilt","ok",0,0.955871,17,388,16384,50855936,4,45,0,0,0

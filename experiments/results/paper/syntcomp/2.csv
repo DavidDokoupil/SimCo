@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-30.7","simple_arbiter/parametric/simple_arbiter.tlsf",4,4,15,48,2,1,0,0,0,"SimCo-Degen","ok",0,0.0681267,4,11,47,188,1,6,2,1,0
+"-:1.1-30.7","simple_arbiter/parametric/simple_arbiter.tlsf",4,4,15,48,2,1,0,0,0,"SimCo","ok",0,0.0569439,4,10,43,169,1,5,3,1,0
+"-:1.1-30.7","simple_arbiter/parametric/simple_arbiter.tlsf",4,4,15,48,2,1,0,0,0,"Kofola","ok",0,0.00412689,4,7,26,124,1,4,3,1,0
+"-:1.1-30.7","simple_arbiter/parametric/simple_arbiter.tlsf",4,4,15,48,2,1,0,0,0,"Seminator","ok",0,0.0230497,4,9,35,135,1,4,3,1,0
+"-:1.1-30.7","simple_arbiter/parametric/simple_arbiter.tlsf",4,4,15,48,2,1,0,0,0,"Autfilt","ok",0,0.00651257,4,5,20,80,2,2,0,0,0

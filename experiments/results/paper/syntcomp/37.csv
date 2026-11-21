@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-65.7","lily/lilydemo15.tlsf",4,9,45,96,2,4,0,0,0,"SimCo-Degen","ok",0,0.0927287,4,29,177,500,1,19,9,1,0
+"-:1.1-65.7","lily/lilydemo15.tlsf",4,9,45,96,2,4,0,0,0,"SimCo","ok",0,0.0843759,4,25,140,414,1,18,8,1,0
+"-:1.1-65.7","lily/lilydemo15.tlsf",4,9,45,96,2,4,0,0,0,"Kofola","ok",0,0.00686056,4,14,65,208,1,9,5,1,0
+"-:1.1-65.7","lily/lilydemo15.tlsf",4,9,45,96,2,4,0,0,0,"Seminator","ok",0,0.0188855,4,16,91,248,1,9,6,1,0
+"-:1.1-65.7","lily/lilydemo15.tlsf",4,9,45,96,2,4,0,0,0,"Autfilt","ok",0,0.00470583,4,10,55,160,2,5,0,0,0

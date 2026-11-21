@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-12403.7","amba/amba/parametric/amba_case_study_unreal.tlsf",15,324,12069,286166,2,5,322,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,
+"-:1.1-12403.7","amba/amba/parametric/amba_case_study_unreal.tlsf",15,324,12069,286166,2,5,322,1,0,"SimCo","timeout",-1,3600,,,,,,,,,
+"-:1.1-12403.7","amba/amba/parametric/amba_case_study_unreal.tlsf",15,324,12069,286166,2,5,322,1,0,"Kofola","ok",0,76.2613,15,307,8593,4230912,4,3,0,0,0
+"-:1.1-12403.7","amba/amba/parametric/amba_case_study_unreal.tlsf",15,324,12069,286166,2,5,322,1,0,"Seminator","timeout",-1,3600,,,,,,,,,
+"-:1.1-12403.7","amba/amba/parametric/amba_case_study_unreal.tlsf",15,324,12069,286166,2,5,322,1,0,"Autfilt","ok",0,13.6151,15,272,7085,3747072,2,4,0,0,0

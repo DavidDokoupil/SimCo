@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-580.7","collector/parametric/collector_v3.tlsf",4,46,524,663,3,13,27,1,0,"SimCo-Degen","ok",0,52.3546,4,120,1347,2450,1,60,66,1,0
+"-:1.1-580.7","collector/parametric/collector_v3.tlsf",4,46,524,663,3,13,27,1,0,"SimCo","ok",0,13.1925,4,114,1307,2272,1,57,63,1,0
+"-:1.1-580.7","collector/parametric/collector_v3.tlsf",4,46,524,663,3,13,27,1,0,"Kofola","ok",0,0.0638782,4,131,1192,2074,1,67,54,1,0
+"-:1.1-580.7","collector/parametric/collector_v3.tlsf",4,46,524,663,3,13,27,1,0,"Seminator","timeout",-1,3600,,,,,,,,,
+"-:1.1-580.7","collector/parametric/collector_v3.tlsf",4,46,524,663,3,13,27,1,0,"Autfilt","ok",0,0.0162792,4,62,564,944,1,12,0,0,0

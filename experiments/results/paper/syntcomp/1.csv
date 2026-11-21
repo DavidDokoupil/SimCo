@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-185953.7","full_arbiter_log/parametric/full_arbiter_enc.tlsf",7,4344,181599,335744,17,2,4344,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,
+"-:1.1-185953.7","full_arbiter_log/parametric/full_arbiter_enc.tlsf",7,4344,181599,335744,17,2,4344,1,0,"SimCo","ok",0,1812.55,7,18195,1668305,3412608,1,799,8466,1,0
+"-:1.1-185953.7","full_arbiter_log/parametric/full_arbiter_enc.tlsf",7,4344,181599,335744,17,2,4344,1,0,"Kofola","ok",0,310.51,7,302181,14433724,38679168,1,11,0,0,0
+"-:1.1-185953.7","full_arbiter_log/parametric/full_arbiter_enc.tlsf",7,4344,181599,335744,17,2,4344,1,0,"Seminator","timeout",-1,3600,,,,,,,,,
+"-:1.1-185953.7","full_arbiter_log/parametric/full_arbiter_enc.tlsf",7,4344,181599,335744,17,2,4344,1,0,"Autfilt","ok",0,154.819,7,308657,17835313,39508096,1,11,0,0,0

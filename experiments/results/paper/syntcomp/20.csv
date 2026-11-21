@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-69.7","lift/parametric/lift_gr1+.tlsf",9,13,46,4124,3,10,2,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,
+"-:1.1-69.7","lift/parametric/lift_gr1+.tlsf",9,13,46,4124,3,10,2,1,0,"SimCo","timeout",-1,3600,,,,,,,,,
+"-:1.1-69.7","lift/parametric/lift_gr1+.tlsf",9,13,46,4124,3,10,2,1,0,"Kofola","ok",0,0.259634,9,190,4571,31069,2,15,111,1,0
+"-:1.1-69.7","lift/parametric/lift_gr1+.tlsf",9,13,46,4124,3,10,2,1,0,"Seminator","ok",0,5.76205,9,169,3319,28629,1,23,139,1,0
+"-:1.1-69.7","lift/parametric/lift_gr1+.tlsf",9,13,46,4124,3,10,2,1,0,"Autfilt","ok",0,0.0513172,9,109,2695,26112,4,18,0,0,0

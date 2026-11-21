@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-44.7",,4,7,28,28,2,1,0,0,0,"SimCo","ok",0,0.0894863,4,36,192,504,1,6,6,1,0
+"-:1.1-44.7",,4,7,28,28,2,1,0,0,0,"SimCo-Degen","ok",0,0.0904284,4,36,181,472,1,6,4,1,0
+"-:1.1-44.7",,4,7,28,28,2,1,0,0,0,"Kofola","ok",0,0.00802469,4,22,110,202,1,5,7,1,0
+"-:1.1-44.7",,4,7,28,28,2,1,0,0,0,"Seminator","ok",0,0.0180863,4,30,136,316,1,6,4,1,0
+"-:1.1-44.7",,4,7,28,28,2,1,0,0,0,"Autfilt","ok",0,0.00710546,4,8,36,128,2,2,0,0,0

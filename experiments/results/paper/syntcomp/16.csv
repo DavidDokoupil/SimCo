@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-192.7","prioritized_arbiter_unreal/parametric/prioritized_arbiter_unreal2.tlsf",6,19,163,544,3,4,2,1,0,"SimCo-Degen","ok",0,3.11522,6,181,2844,17984,1,29,100,1,0
+"-:1.1-192.7","prioritized_arbiter_unreal/parametric/prioritized_arbiter_unreal2.tlsf",6,19,163,544,3,4,2,1,0,"SimCo","ok",0,1.40718,6,100,1429,7240,1,20,51,1,0
+"-:1.1-192.7","prioritized_arbiter_unreal/parametric/prioritized_arbiter_unreal2.tlsf",6,19,163,544,3,4,2,1,0,"Kofola","ok",0,0.0247763,6,58,689,2814,1,7,29,1,0
+"-:1.1-192.7","prioritized_arbiter_unreal/parametric/prioritized_arbiter_unreal2.tlsf",6,19,163,544,3,4,2,1,0,"Seminator","ok",0,0.0505593,6,40,370,1682,1,8,11,1,0
+"-:1.1-192.7","prioritized_arbiter_unreal/parametric/prioritized_arbiter_unreal2.tlsf",6,19,163,544,3,4,2,1,0,"Autfilt","ok",0,0.0119435,6,43,405,2752,2,11,0,0,0

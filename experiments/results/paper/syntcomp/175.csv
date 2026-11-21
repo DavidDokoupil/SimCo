@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-115.7","sweap/reversible-lane-u0.tlsf",16,30,75,1640248,2,28,2,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,
+"-:1.1-115.7","sweap/reversible-lane-u0.tlsf",16,30,75,1640248,2,28,2,1,0,"SimCo","timeout",-1,3600,,,,,,,,,
+"-:1.1-115.7","sweap/reversible-lane-u0.tlsf",16,30,75,1640248,2,28,2,1,0,"Kofola","exit code",1,341.51,,,,,,,,,
+"-:1.1-115.7","sweap/reversible-lane-u0.tlsf",16,30,75,1640248,2,28,2,1,0,"Seminator","exit code",1,224.631,,,,,,,,,
+"-:1.1-115.7","sweap/reversible-lane-u0.tlsf",16,30,75,1640248,2,28,2,1,0,"Autfilt","ok",0,62.652,16,493,12053,49160,4,9,0,0,0

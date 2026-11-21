@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-137684.7","gui_glue_code_synthesis/06.tlsf",10,17490,120184,512514,27,2058,2,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,
+"-:1.1-137684.7","gui_glue_code_synthesis/06.tlsf",10,17490,120184,512514,27,2058,2,1,0,"SimCo","timeout",-1,3600,,,,,,,,,
+"-:1.1-137684.7","gui_glue_code_synthesis/06.tlsf",10,17490,120184,512514,27,2058,2,1,0,"Kofola","exit code",1,307.414,,,,,,,,,
+"-:1.1-137684.7","gui_glue_code_synthesis/06.tlsf",10,17490,120184,512514,27,2058,2,1,0,"Seminator","timeout",-1,3600,,,,,,,,,
+"-:1.1-137684.7","gui_glue_code_synthesis/06.tlsf",10,17490,120184,512514,27,2058,2,1,0,"Autfilt","exit code",1,121.66,,,,,,,,,

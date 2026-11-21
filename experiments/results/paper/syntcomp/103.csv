@@ -1,0 +1,6 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-55.7","tsl_smart_home_jarvis/extracted-benchmarks/Heating_974f4a68.tlsf",7,8,37,394,2,5,4,1,0,"SimCo-Degen","ok",0,221.813,7,279,3336,37452,1,69,145,1,0
+"-:1.1-55.7","tsl_smart_home_jarvis/extracted-benchmarks/Heating_974f4a68.tlsf",7,8,37,394,2,5,4,1,0,"SimCo","ok",0,103.351,7,104,1151,13888,1,28,48,1,0
+"-:1.1-55.7","tsl_smart_home_jarvis/extracted-benchmarks/Heating_974f4a68.tlsf",7,8,37,394,2,5,4,1,0,"Kofola","ok",0,0.0328571,7,78,660,5825,2,12,50,1,0
+"-:1.1-55.7","tsl_smart_home_jarvis/extracted-benchmarks/Heating_974f4a68.tlsf",7,8,37,394,2,5,4,1,0,"Seminator","ok",0,475.289,7,421,6389,26547,1,229,373,1,0
+"-:1.1-55.7","tsl_smart_home_jarvis/extracted-benchmarks/Heating_974f4a68.tlsf",7,8,37,394,2,5,4,1,0,"Autfilt","ok",0,0.0100484,7,33,313,4224,3,8,0,0,0
