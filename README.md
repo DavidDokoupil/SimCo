@@ -12,10 +12,7 @@ correction of the published evaluation, see [Correction](#correction).
 
 - Python 3.14 (the paper used 3.14.4)
 - [Spot](https://spot.lre.epita.fr/) 2.14.5 with its Python bindings, built with `--enable-max-accsets=256` (needed
-  for the SYNTCOMP benchmark; automata with many acceptance sets). The options used in the paper need an unmodified
-  Spot. The experimental options `--sim`, `--sim_useful` and `--sim_input` (not used in the paper) need Spot with
-  `patches/spot-2.14.5-simco.patch` (exports Spot's direct simulation relation to Python; `patch -p2` inside the
-  unpacked Spot 2.14.5).
+  for the SYNTCOMP benchmark; automata with many acceptance sets).
 
 ## Usage
 
@@ -23,9 +20,15 @@ correction of the published evaluation, see [Correction](#correction).
 python3 SimCo/complement.py [options] [file.hoa ...]   # reads standard input without a file
 ```
 
-Every automaton of the input (HOA format) is complemented; the complement is printed in HOA format. The options of the
-paper: `--jump` (level jumping), `--merge` (merging of tainted components), `--postprocess` (Spot's simplification
-of the result, level Low). `--help` lists all options; the others are experimental.
+Every automaton of the input (HOA format) is complemented; the complement is printed in HOA format. Options:
+`--jump` (level jumping), `--merge` (component merging), `--postprocess` or `--post-process` (Spot's simplification of
+the result: preference Small, level Medium for complements with fewer than 48 states and Low otherwise; the paper
+mentions only Low). The input is first simplified by Spot's `scc_filter`.
+
+The code is the version used in the paper with the experimental options removed (`--couple-jump`, `--scc-based`,
+`--sim`, `--skip`, `--early-taint`, `--round-robin`, `--test`, `--scc_filt`, `--sim_useful`, `--sim_input`; none is used
+or described in the paper). For the options above it produces the same automata, byte for byte (checked on all
+Random inputs and the SYNTCOMP inputs completed within a minute).
 
 ## Experiments
 

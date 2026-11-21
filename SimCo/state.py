@@ -1,8 +1,6 @@
 class State():
     def __init__(self, up, tCount = 1, pCounts = [1], genBuchi = False, sccBased = False):
         self.up = up
-        self.fTela = genBuchi
-        self.sccBased = sccBased
         
         # Structure:
         #   Trackers (for conjuncts)
