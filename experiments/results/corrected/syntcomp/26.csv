@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-95.7","round_robin_arbiter_unreal/parametric/round_robin_arbiter_unreal2.tlsf",4,17,68,218,2,10,2,1,0,"SimCo-Degen","ok",0,1.34925,4,54,600,600,1,10,11,1,0

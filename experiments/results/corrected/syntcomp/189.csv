@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-168.7","sweap/infinite-race-u15.tlsf",16,48,110,1302414,3,48,3,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,

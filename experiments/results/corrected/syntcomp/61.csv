@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-120843.7","simple_arbiter_log/parametric/simple_arbiter_enc.tlsf",7,2048,118784,262144,9,1,0,0,0,"SimCo-Degen","ok",0,900.419,7,6398,550081,1239262,1,10,3326,1,0

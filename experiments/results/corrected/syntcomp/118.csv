@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-85.7","tsl_smart_home_jarvis/extracted-benchmarks/CoffeMachine_974f4a68.tlsf",10,14,61,3208,2,10,5,1,0,"SimCo-Degen","ok",0,2278.12,10,47,428,48696,1,13,18,1,0

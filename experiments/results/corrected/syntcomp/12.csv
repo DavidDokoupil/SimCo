@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-415.7","amba/amba_decomposed/amba_decomposed_tburst4.tlsf",5,62,343,1318,4,6,50,1,0,"SimCo-Degen","ok",0,50.4912,5,44,256,976,1,9,15,1,0

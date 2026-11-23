@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-55.7","tsl_smart_home_jarvis/extracted-benchmarks/Light_d65ed84e.tlsf",9,8,37,1010,2,5,4,1,0,"SimCo-Degen","ok",0,546.335,9,60,633,31464,1,31,31,1,0

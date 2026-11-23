@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-248.7","ltl2dba/non_parametric_from_acacia/ltl2dba21.tlsf",3,42,196,352,2,9,28,1,0,"SimCo-Degen","ok",0,4.06079,3,456,3672,4490,1,162,222,1,0

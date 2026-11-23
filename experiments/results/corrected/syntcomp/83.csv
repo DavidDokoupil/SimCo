@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-23.7","arbiters_zoo/parametric/arbiter.tlsf",2,3,10,11,2,1,0,0,0,"SimCo-Degen","ok",0,0.0663253,2,9,28,39,1,5,2,1,0

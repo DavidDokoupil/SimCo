@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-250.7","tsl_paper/SliderScored.tlsf",13,29,211,6048,3,6,2,1,0,"SimCo-Degen","ok",0,2242.31,13,66,903,544688,1,20,31,1,0

@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-543.7","tsl_smart_home_jarvis/extracted-benchmarks/LightsTotal_2c5b09da.tlsf",19,38,495,909088,3,9,22,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,

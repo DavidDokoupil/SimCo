@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-53.7","ltl2dba/parametric/ltl2dba_theta.tlsf",5,9,34,320,3,7,4,1,0,"SimCo-Degen","ok",0,3.57113,5,122,1768,5280,1,24,43,1,0

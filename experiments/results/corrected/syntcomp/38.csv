@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-91.7","prioritized_arbiter/parametric/prioritized_arbiter.tlsf",6,11,70,448,3,4,2,1,0,"SimCo-Degen","ok",0,1.21403,6,43,444,3136,1,9,18,1,0

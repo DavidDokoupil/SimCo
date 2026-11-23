@@ -19,7 +19,7 @@ PYTHON=${PYTHON:-python3}; KOFOLA=${KOFOLA:-kofola}; SEMINATOR=${SEMINATOR:-semi
 TOOLS=${TOOLS:-"SimCo SimCo-Degen Kofola Seminator Autfilt"}
 simco="$PYTHON $(cd "$(dirname "$0")/.." && pwd)/SimCo/complement.py"
 case $bench in
-  random)   input=benchmarks/random/TGBA_new.hoa; timeout=60; spost="| autfilt --small --low" ;;
+  random)   input=benchmarks/random/TGBA.hoa; timeout=60; spost="| autfilt --small --low" ;;
   syntcomp) input=$(mktemp --suffix=.hoa); gzip -dc benchmarks/syntcomp/SYNTCOMPAutomata.hoa.gz > "$input"
             timeout=3600; spost="" ;;
   *) echo "usage: $0 random|syntcomp [JOBS]"; exit 1 ;;

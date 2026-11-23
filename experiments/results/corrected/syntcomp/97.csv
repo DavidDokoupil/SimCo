@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-60.7","tsl_smart_home_jarvis/extracted-benchmarks/LampController_974f4a68.tlsf",8,9,41,805,2,6,5,1,0,"SimCo-Degen","ok",0,75.5641,8,49,500,13084,1,19,20,1,0

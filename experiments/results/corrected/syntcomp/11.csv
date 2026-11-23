@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-289.7","amba/amba_decomposed/parametric/amba_decomposed_arbiter.tlsf",11,12,267,8972,4,5,2,1,0,"SimCo-Degen","ok",0,245.137,11,76,1539,157075,1,12,26,1,0

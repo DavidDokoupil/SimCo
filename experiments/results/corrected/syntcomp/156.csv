@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-53.7","tsl_smart_home_jarvis/extracted-benchmarks/Warnlight_2d1010f8.tlsf",7,8,35,326,2,5,4,1,0,"SimCo-Degen","ok",0,7.79438,7,20,161,2620,1,6,7,1,0

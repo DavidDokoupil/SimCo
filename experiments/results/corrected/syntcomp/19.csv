@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-86.7","lift/parametric/lift.tlsf",6,15,61,461,3,8,2,1,0,"SimCo-Degen","ok",0,2.9955,6,52,472,1515,1,7,17,1,0

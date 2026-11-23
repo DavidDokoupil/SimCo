@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-149.7","robot_grid/parametric/robot_grid.tlsf",9,27,112,5040,4,12,2,1,0,"SimCo-Degen","ok",0,2057.42,9,58,658,3824,1,8,21,1,0

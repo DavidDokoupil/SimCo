@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-56.7","load_balancer_unreal/parametric/load_balancer_unreal1.tlsf",5,12,34,302,2,8,3,1,0,"SimCo-Degen","ok",0,0.650299,5,25,179,580,1,10,8,1,0

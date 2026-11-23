@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-194.7","tsl_smart_home_jarvis/extracted-benchmarks/Full_f1477cc5/Full_f1477cc5_2.tlsf",11,31,153,10878,2,15,16,1,0,"SimCo-Degen","timeout",-1,3600,,,,,,,,,

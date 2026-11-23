@@ -25,10 +25,9 @@ Every automaton of the input (HOA format) is complemented; the complement is pri
 the result: preference Small, level Medium for complements with fewer than 48 states and Low otherwise; the paper
 mentions only Low). The input is first simplified by Spot's `scc_filter`.
 
-The code is the version used in the paper with the experimental options removed (`--couple-jump`, `--scc-based`,
-`--sim`, `--skip`, `--early-taint`, `--round-robin`, `--test`, `--scc_filt`, `--sim_useful`, `--sim_input`; none is used
-or described in the paper). For the options above it produces the same automata, byte for byte (checked on all
-Random inputs and the SYNTCOMP inputs completed within a minute).
+The code is the version used in the paper with experimental options not used or described in the paper removed. For
+the options above it produces the same automata, byte for byte (checked on all Random inputs and the SYNTCOMP inputs
+completed within a minute).
 
 ## Experiments
 
@@ -36,7 +35,7 @@ Everything below runs from `experiments/`.
 
 **Benchmarks** (`benchmarks/`):
 
-- `random/TGBA_new.hoa` – **Random**, 491 TGBAs: Spot's `randaut` with 2–5 acceptance sets and 2–5 atomic
+- `random/TGBA.hoa` – **Random**, 491 TGBAs: Spot's `randaut` with 2–5 acceptance sets and 2–5 atomic
   propositions (50 automata each), 2–7 states, density 0.5, seed 0; automata with an empty language removed.
   `random/build_random.sh` regenerates it byte for byte (checked with Spot 2.14.5 and 2.16.3).
 - `syntcomp/SYNTCOMPAutomata.hoa.gz` – **SYNTCOMP**, 209 TGBAs: the LTL formulae of the SYNTCOMP TLSF benchmarks
@@ -79,7 +78,19 @@ SimCo (`autfilt -b %H | python3 SimCo/complement.py --jump --merge --postprocess
 degeneralized automata, checked).
 
 `run.sh` uses the intended pipeline. Corrected SimCo-Degen results on SYNTCOMP, with the paper's settings (this
-version of SimCo, Spot 2.14.5, 1 h, 16 GB): **pending**.
+version of SimCo, Spot 2.14.5, 1 h, 16 GB) are in `results/corrected/`; `python3 summarize.py --corrected` uses them.
+
+| SYNTCOMP, SimCo-Degen | published | corrected |
+|---|---|---|
+| Timeouts | 109 | 101 |
+| MOs | 6 | 6 |
+
+Compared with SimCo (97 timeouts, 6 MOs), SimCo solves 5 inputs on which the corrected SimCo-Degen times out, and
+SimCo-Degen solves 1 input on which SimCo times out. On the 101 inputs both finish, SimCo-Degen's complement is smaller
+on 80, larger on 15 and of equal size on 6 (geometric mean of the size ratio SimCo-Degen/SimCo 0.84). The total number
+of states is 71 062 for SimCo-Degen and 59 611 for SimCo, mostly because of one input (lily/lilydemo17: 6 689 vs 299
+states). Contrary to the published statement, SimCo-Degen therefore does not produce consistently larger complements
+than SimCo on SYNTCOMP.
 
 ## License
 

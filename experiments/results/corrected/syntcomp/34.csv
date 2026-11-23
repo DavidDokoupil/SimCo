@@ -1,0 +1,2 @@
+"input.source","input.name","input.ap","input.states","input.edges","input.transitions","input.acc_sets","input.scc","input.nondetstates","input.nondeterministic","input.alternating","tool","exit_status","exit_code","time","output.ap","output.states","output.edges","output.transitions","output.acc_sets","output.scc","output.nondetstates","output.nondeterministic","output.alternating"
+"-:1.1-55.7","lily/lilydemo19.tlsf",4,8,37,116,3,4,2,1,0,"SimCo-Degen","ok",0,0.322122,4,33,261,656,1,10,12,1,0
